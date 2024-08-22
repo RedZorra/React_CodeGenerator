@@ -27,7 +27,7 @@ function QuoteGenerator() {
                     <p className="quote">
                         "{currentQuote.quote}"
                     </p>
-                    <p className="author">"{currentQuote.author}"</p>
+                    <p className="author">{currentQuote.author}</p>
                     </>
                 ) : (
                     <p>Loading...</p>
